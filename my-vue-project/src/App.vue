@@ -12,7 +12,8 @@
 <!-- <UpdateLifeCycle/> -->
 <!-- <ConditionalRendering/> -->
 <!-- <ParentCompo/> -->
-<ParentComp/>
+<!-- <ParentComp/> -->
+<SimpleForm/>
 </template>
 
 
@@ -29,7 +30,8 @@
 // import UpdateLifeCycle from './components/UpdateLifeCycle.vue'
 // import ConditionalRendering from './components/ConditionalRendering.vue'
 // import ParentCompo from './components/ParentCompo.vue'
-import ParentComp from './components/ParentComp.vue'
+// import ParentComp from './components/ParentComp.vue'
+import SimpleForm from './components/SimpleForm.vue'
 
 export default {
      name: 'App',
@@ -46,7 +48,8 @@ export default {
     // UpdateLifeCycle,
     // ConditionalRendering,
     // ParentCompo,
-    ParentComp
+    // ParentComp,
+    SimpleForm
   }
 }
 </script>

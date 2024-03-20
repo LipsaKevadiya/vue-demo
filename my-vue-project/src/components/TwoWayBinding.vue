@@ -1,7 +1,8 @@
 <template>
   
     <h1>Two way binding</h1>
-    <input type="text" v-model="count"/>
+    <input type="text"  v-model.lazy.trim="count"/>
+    
     <h1>{{count}}</h1>
  
 </template>
