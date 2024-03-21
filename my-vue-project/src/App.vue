@@ -14,6 +14,12 @@
 <!-- <ParentCompo/> -->
 <!-- <ParentComp/> -->
 <SimpleForm/>
+<ReuseParentCompo/>
+<CompositionComp/>
+<GetApiData/>
+<TeleportCompo/>
+<DynamicCompo/>
+<ProvideInjectCompo/>
 </template>
 
 
@@ -32,6 +38,12 @@
 // import ParentCompo from './components/ParentCompo.vue'
 // import ParentComp from './components/ParentComp.vue'
 import SimpleForm from './components/SimpleForm.vue'
+import ReuseParentCompo from './components/ReuseParentCompo.vue'
+import CompositionComp from './components/Composition.vue'
+import GetApiData from './components/GetApiData.vue'
+import TeleportCompo from './components/TeleportCompo.vue'
+import DynamicCompo from './components/DynamicCompo.vue'
+import ProvideInjectCompo from './components/ProvideInjectCompo.vue'
 
 export default {
      name: 'App',
@@ -49,7 +61,13 @@ export default {
     // ConditionalRendering,
     // ParentCompo,
     // ParentComp,
-    SimpleForm
+    SimpleForm,
+    ReuseParentCompo,
+    CompositionComp,
+    GetApiData,
+    TeleportCompo,
+    DynamicCompo,
+    ProvideInjectCompo
   }
 }
 </script>
